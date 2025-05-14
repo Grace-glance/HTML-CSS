@@ -1,0 +1,132 @@
+/*Brower Reset*/
+
+/*Body*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: hsl(71, 73%, 54%);
+    --LightGray: hsla(205, 55%, 94%, 0.719);
+    --GrayishBlue: hsl(217, 24%, 76%);
+    --text-base: 16px;
+    --font-normal: 400;
+    --font-bold: 700;
+}
+body{
+    font-size: var(--text-base);
+    font-weight: var(--font-bold);
+    font-family: 'karla', sans-serif;
+    font-size: 15px;
+    background-color: var(--LightGray);
+}
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+section{
+    width: 738px; /* Adjust width*/
+    border-radius: 20px;
+    
+}
+.title{
+    color: hsl(179, 62%, 43%);
+}
+.p1{
+    color: hsl(71, 73%, 54%);
+}    
+.p2{
+    color:  hsl(218, 22%, 67%);
+}
+button{
+    color:  var(--LightGray);
+    background-color: var( --BrightYellow);
+    padding: 15px;
+    font-size: 10px;
+    font-weight: var(--font-normal);
+    border: none;
+    width:200px;
+    border-radius: 5px;
+}
+
+.content{
+    background-color: white;
+    width: 650px;
+    
+}
+.intru{
+    height: 150px;
+    padding: 10px;
+    text-align: start;
+    line-height: 30px;
+    padding-left: 30px;
+    
+}
+.title {
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+.p2{
+    color: rgb(133, 160, 75);
+    padding-bottom: 5px;
+}
+.p3{
+    color: var(--GrayishBlue)
+}
+.p4{
+    color: var(--GrayishBlue);
+    line-height: 10px;
+    margin-bottom: 30px;
+}
+.p5{
+    padding-top: 20px;
+}
+.monthly h2{
+    padding-bottom: 10px;
+}
+strong{
+    font-size: 30px;
+}
+.why-us h2{
+    padding-bottom: 20px;
+}
+
+.monthly{
+    color: var(--LightGray);
+    background-color: hsl(179, 52%, 49%);
+    padding: 25px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 10px;
+    line-height: 30px;
+    padding-left: 60px;
+    width: 500px;
+
+
+}
+.why-us{
+    color: var(--LightGray);
+    background-color: hsl(179, 55%, 57%);
+    text-align: left;
+    padding: 25px;
+    line-height: 20px;
+    padding-left: 40px;
+    width: 500px;
+    font-size: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+.combine{
+    display: flex;
+    flex-direction: row;
+    width: 10oopx;
+    height: 220px;
+    
+}

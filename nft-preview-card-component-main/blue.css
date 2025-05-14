@@ -1,0 +1,149 @@
+/*Browser Reset*/
+
+/* Import font*/
+@font-face{
+    font-family: "Outfit";
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+
+/*Body*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    
+    --Cyan: hsl(178, 100%, 50%);
+    --Blue: hsl(215, 51%, 70%);
+    --Blue: hsl(217, 54%, 11%);
+    --Blue: hsl(216, 50%, 16%);
+    --Blue: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --text-base: 18px;
+    --font-normal: 300;
+    --font-medium: 400;
+    --font-bold: 600px;
+    
+}
+body{
+    font-size: var(--text-base);
+    font-weight: var(--font-normal);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    
+    height: 100%;
+}
+main{
+
+    background-color: var(--Blue);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+section{
+    background-color: var(--Blue);
+    width: 300px; /* Adjust width*/
+    border-radius: 15px;
+    border: 1px solid hsl(210, 4%, 82%);
+    padding: 25px;
+    height: 480px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bluebox{
+    max-width: 100%;
+    max-height: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+h1{
+    font-size: 18px;
+    font-weight: var(--font-bold);
+    color: var(--White);
+    margin-bottom: 16px;
+}
+
+.p1{
+    font-weight: var(--font-medium);
+    font-size: 15px;
+    color: var(--Blue hsl(215, 51%, 70%));
+    margin-bottom: 15px;
+}
+
+div.diamond{
+    justify-content: left;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.p.ETH{
+    margin-left: 10px;
+    color: var(--Cyan);
+    font-weight: var(--font-medium);
+    font-size: 13px;
+}
+
+.p3{
+    color: var(--Blue);
+    font-weight: var(--font-medium);
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+div.diamond{
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.clock{
+    margin-left: 75px;
+}
+
+div.avatar{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin-bottom: 38px;
+}
+
+.avatar-image{
+    width: 30px;
+    height: 30px;
+}
+
+.p.jules{
+    color: var(--Blue hsl(215, 51%, 70%));
+    font-weight: var(--font-normal);
+    font-size: 18px;
+}
+
+.name{
+    color: var(--White);
+    font-weight: var(--font-normal);
+    font-size: 14px;
+}
+
+hr{
+    width: 100%; /* Full width of the card*/
+    border: none; /*Remove default border*/
+    height: 2px; /*Height of the line*/
+    background-color:  hsl(216, 50%, 16%); /* Red color*/
+    margin: 10px; /*Margin above and below the line*/
+    
+}
+
+div.avatar{
+    display: flex;
+    .avatar.img{
+
+        border-radius: 5px;
+
+    }
+}
