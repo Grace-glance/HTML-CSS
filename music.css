@@ -1,0 +1,135 @@
+/* Browser Reset*/
+
+*,
+*::after
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*import font*/
+@font-face {
+    font-family: "Red Hat Display" ;
+    src: url(https://fonts.google.com/specimen/Red+Hat+Display);
+}
+/*Custom Properties*/
+:root {
+    --Paleblue: hsl(225, 100%, 94%);
+    --Brightblue: hsl(245, 75%, 52%);
+    --Verypaleblue: hsl(225, 100%, 98%);
+    --Desaturatedblue: hsl(224, 23%, 55%);
+    --Darkblue: hsl(223, 47%, 23%);
+    --White: hsl(0, 0%, 100%);
+    --text-base: 16px;
+    --font-normal: 500;
+    --font-medium: 700;
+    --font-bold: 900;
+}
+/*Body*/
+body {
+font-size: var(--text-base);
+font-weight: var(--font-normal);
+font-family: 'Red Hot Display', sans-serif;
+}
+
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--Paleblue);
+    overflow: hidden;
+}
+
+section{
+    background-color: var(--white);
+    width: 380px; /* Adjust width*/
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    color: var(--Desasturatedblue);
+
+}
+img.music {
+width: 100%;
+height: auto;
+}
+section > div.content{
+    padding: 10px 50px;
+}
+h1{
+    display: flex;
+    margin-bottom: 10px;
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 19px;
+    color: var(--Darkblue);
+    font-weight: var(--font-bold);
+    align-items: center;
+    justify-content: center;
+}
+p.document{
+    margin-bottom: 10px;
+    font-family: "Red Hat Display" sans-serif;
+    font-size: 13px;
+    font-weight: var(--font-normal);
+    color: var(--Desasturatedblue);
+}
+div.music-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-family: "Red Hat Display", sans-serif;
+    background-color: var(--VeryPaleBlue);
+    border-radius: 8px;
+    padding: 15px 10px;
+}
+section div.music-info div.picture{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section div.music-info div.picture div.price {
+    text-align: start;
+    margin-left: 10px;
+}
+h2{
+    color: var(--Darkblue);
+    font-weight: var(--font-medium);
+    font-size: var(--text-base);
+}
+section div.music-info a{
+    color: var(--Brightblue);
+    font-weight:  var(--font-bold);
+    margin-left: 0px;
+}
+button{
+    display: block;
+    margin-bottom: 15px;
+    border: none;
+    background: var(--Brightblue);
+    color: hsl(0px, 0px, 100%);
+    padding: 15px 10px;
+    width: 100%;
+    font-size: 12px;
+    font-weight: var(--font-medium);
+    border-radius: 7px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    box-shadow: 10px 10px 5px var(--Paleblue);
+    font-family: "Red Hat Display", sans-serif;
+}
+button:hover{
+background-color: var(--Darkblue);
+}
+.cancel{
+    color: var(--Desasturatedblue);
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    font-family: "Red Hat Display", sans-serif;
+}
+.cancel:hover{
+    color: var(--Darkblue);
+}
